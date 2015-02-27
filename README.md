@@ -111,7 +111,7 @@ Your array of scopes doesn't need to contain the scope of `openid`, since it add
 
 ## Dynamic Scope Requests
 
-If you need to be able to modify which scopes are requested based on the user, then you can pass a `getScpe` function that accepts a request object as its paramter and syncrhronously returns a space-seperated string of quotes
+If you need to be able to modify which scopes are requested based on the user/request, then you can pass a `getScope` function when configuring the strategy. The getScope function accepts a request object as its only parameter and syncrhronously returns a space-seperated string of scopes
 
     var StrategyGoogle = require('passport-google-openidconnect').Strategy;
     passport.use(new StrategyGoogle({
