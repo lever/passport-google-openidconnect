@@ -1,6 +1,6 @@
 {
-  "name": "passport-google-openidconnect",
-  "version": "0.0.4",
+  "name": "lever-passport-google-openidconnect",
+  "version": "0.0.5",
   "description": "Google OpenID Connect authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kkkon/passport-google-openidconnect.git"
+    "url": "https://github.com/lever/passport-google-openidconnect.git"
   },
   "bugs": {
-    "url": "https://github.com/kkkon/passport-google-openidconnect/issues"
+    "url": "https://github.com/lever/passport-google-openidconnect/issues"
   },
   "author": {
     "name": "Kiyofumi Kondoh",
@@ -29,11 +29,15 @@
     {
       "name": "Jared Hanson",
       "email": "jaredhanson@gmail.com"
+    },
+    {
+      "name": "Zeus Lalkaka",
+      "email": "zeus@lever.co"
     }
   ],
   "licenses": [ {
     "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
+    "url": "http://www.opensource.org/licenses/MIT"
   } ],
   "main": "./lib",
   "dependencies": {
