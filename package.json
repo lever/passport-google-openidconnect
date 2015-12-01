@@ -1,6 +1,6 @@
 {
   "name": "lever-passport-google-openidconnect",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Google OpenID Connect authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -35,10 +35,12 @@
       "email": "zeus@lever.co"
     }
   ],
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
   "dependencies": {
     "pkginfo": "0.2.x",
@@ -53,5 +55,7 @@
   "scripts": {
     "test": "NODE_PATH=./lib node_modules/.bin/mocha --reporter spec --require test/node/bootstrap test/*.test.js"
   },
-  "engines": { "node": ">= 0.6.0" }
+  "engines": {
+    "node": ">= 0.6.0"
+  }
 }
