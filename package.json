@@ -1,6 +1,6 @@
 {
   "name": "lever-passport-google-openidconnect",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Google OpenID Connect authentication strategy for Passport.",
   "keywords": [
     "passport",
